@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-image: url(Images/download.jpg);
-  top: 0;
-  left: 0;
+  background-size: 100% 530px;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  color: white;
 }
 
 #header {
@@ -14,12 +16,14 @@ body {
   justify-content: space-around;
 }
 
-#header-img{
-  width: 8%;
+#header-img {
+  width: 9%;
   height: auto;
+  margin-left: 50px;
 }
 
 ul {
+  margin-left: 230px;
   display: flex;
   justify-content: space-around;
 }
@@ -32,9 +36,9 @@ ul {
 
 #nav-bar a {
   text-decoration: none;
-  color: white;
   font-weight: bold;
   font-size: 18px;
+  color: white;
 }
 
 #nav-bar a:hover {
@@ -45,11 +49,10 @@ ul {
 }
 
 button {
-  margin: 30px 40px;
+  margin: 30px 60px 30px 10px;
   padding-top: 0;
-  height: 35px;
-  width: 12%;
-  color: white;
+  height: 40px;
+  width: 14%;
   border-radius: 50px;
   background-color: #ffbe28;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
@@ -61,14 +64,41 @@ button:hover {
   font-weight: bold;
 }
 
-main{
+#main {
   display: flex;
+  align-items: center;
+  justify-content:space-around;
 }
 
-#image-section img{
-  width: 100%;
-  height: 400px;
-
+#text-section {
+  width: 50%;
+  margin: 100px;
 }
 
+#image-section {
+  width: 50%;
+}
+
+#text-section h1 {
+}
+
+#text-section p {
+  width: 70%;
+  text-align: justify;
+}
+
+#image-section img {
+  width: 70%;
+  height: 280px;
+  transition: opacity 0.5s ease-in-out 0.2s;
+}
+
+#header-icons {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+#header-icons i {
+  margin-left: 10px;
+}
 
