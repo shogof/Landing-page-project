@@ -49,30 +49,34 @@ ul {
 }
 
 button {
-  margin: 30px 60px 30px 10px;
+  margin: 30px 20px 30px 10px;
   padding-top: 0;
   height: 40px;
-  width: 14%;
+  width: 13%;
   border-radius: 50px;
-  background-color: #ffbe28;
+  background-color: #f5ad04;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-button:hover {
+button:hover, #form #submit:hover {
   color: #ffbe28;
   background-color: aliceblue;
   font-weight: bold;
+  font-size: 18px;
+  padding: 2px;
+  transition: all 1s;
 }
 
 #main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 260px;
 }
 
 #text-section {
   width: 50%;
-  margin: 20px 100px;
+  margin: 0 100px;
 }
 
 #image-section {
@@ -83,11 +87,10 @@ button:hover {
   font-family: "Dancing Script";
   font-size: 50px;
   margin-bottom: 0;
-
 }
 
 #text-section p {
-  margin-top: 10px;
+  margin-top: 10px 0 0 0;
   width: 80%;
   text-align: justify;
   font-family: "Dancing Script";
@@ -108,27 +111,19 @@ button:hover {
   margin-left: 10px;
 }
 
-table {
-  background-color: aqua;
-  width: 100%;
-  height: auto;
-  margin-top: 130px;
-}
-
-.font-dancing-script-<uniquifier > {
+.font-dancing-script-regular {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: normal; /* Or any valid font weight value */
   font-style: normal;
 }
 
-.font-edu-tas-beginner-<uniquifier > {
+.font-edu-tas-beginner-bold {
   font-family: "Edu TAS Beginner", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: bold; /* Or any valid font weight value */
   font-style: normal;
 }
-
 
 #j {
   animation: moveUpDown 5s ease-in-out infinite;
@@ -146,6 +141,92 @@ table {
   }
 }
 
+#third-section table {
+  width: 100%;
+  height: 250px;
+  margin-top: 90px;
+  padding: 20px;
+}
+
+#third-section tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#third-section td {
+  background-color: aliceblue;
+  width: 30%;
+  height: 200px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#form {
+  /* background-color: #fff; */
+  width: 30%;
+  margin: 0 100px;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #f5ad04;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#form #email {
+  width: 50%;
+  height: 18px;
+  background-color: black;
+  border: 1px solid #f5ad04;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 3px;
+
+}
+
+#form #submit {
+  width: 20%;
+  height: 25px;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid #f5ad04;
+  margin-top: 6px;
+  color: white;
+  padding: 4px 10px;
+}
+
+
+label {
+  margin-top: 10px;
+}
 
 
 
+video{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: #f5ad04;
+}
