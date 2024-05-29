@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   background-image: url(Images/download.jpg);
-  background-size: 100% 530px;
+  background-size: 100% 480px;
   background-repeat: no-repeat;
   background-position: fixed;
   color: white;
@@ -67,12 +67,12 @@ button:hover {
 #main {
   display: flex;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 #text-section {
   width: 50%;
-  margin: 100px;
+  margin: 20px 100px;
 }
 
 #image-section {
@@ -80,17 +80,23 @@ button:hover {
 }
 
 #text-section h1 {
+  font-family: "Dancing Script";
+  font-size: 50px;
+  margin-bottom: 0;
+
 }
 
 #text-section p {
-  width: 70%;
+  margin-top: 10px;
+  width: 80%;
   text-align: justify;
+  font-family: "Dancing Script";
 }
 
 #image-section img {
-  width: 70%;
-  height: 280px;
-  transition: opacity 0.5s ease-in-out 0.2s;
+  width: 60%;
+  height: 250px;
+  margin-top: 50px;
 }
 
 #header-icons {
@@ -101,4 +107,45 @@ button:hover {
 #header-icons i {
   margin-left: 10px;
 }
+
+table {
+  background-color: aqua;
+  width: 100%;
+  height: auto;
+  margin-top: 130px;
+}
+
+.font-dancing-script-<uniquifier > {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.font-edu-tas-beginner-<uniquifier > {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+#j {
+  animation: moveUpDown 5s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
 
