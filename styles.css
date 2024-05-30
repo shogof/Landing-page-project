@@ -38,6 +38,12 @@ ul {
   padding: 10px;
 }
 
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
 .footer-links a:hover {
   color: #f5ad04;
 }
@@ -49,12 +55,6 @@ ul {
   color: white;
 }
 
-.footer-links a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: white;
-}
-
 #nav-bar a:hover {
   text-decoration: none;
   color: #ffbe28;
@@ -63,7 +63,7 @@ ul {
 }
 
 button {
-  margin: 30px 0px 30px 10px;
+  margin: 30px 0 30px 10px;
   padding-top: 0;
   height: 40px;
   width: 13%;
