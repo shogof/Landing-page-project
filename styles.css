@@ -22,7 +22,6 @@ body {
 }
 
 ul {
-  margin-left: 230px;
   display: flex;
   justify-content: space-around;
 }
@@ -30,6 +29,7 @@ ul {
 #nav-bar {
   position: fixed;
   top: 0;
+  float: left;
 }
 
 #nav-bar li {
@@ -38,10 +38,20 @@ ul {
   padding: 10px;
 }
 
+.footer-links a:hover {
+  color: #f5ad04;
+}
+
 #nav-bar a {
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
+  color: white;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
   color: white;
 }
 
@@ -53,13 +63,24 @@ ul {
 }
 
 button {
-  margin: 30px 20px 30px 10px;
+  margin: 30px 0px 30px 10px;
   padding-top: 0;
   height: 40px;
   width: 13%;
   border-radius: 50px;
   background-color: #f5ad04;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+#form #submit {
+  width: 20%;
+  height: 25px;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid #f5ad04;
+  margin-top: 6px;
+  color: white;
+  padding: 4px 10px;
 }
 
 #form #submit:hover {
@@ -76,6 +97,7 @@ button {
   align-items: center;
   justify-content: space-around;
   height: 260px;
+  font-family: "Dancing Script", sans-serif;
 }
 
 #text-section {
@@ -88,7 +110,6 @@ button {
 }
 
 #text-section h1 {
-  font-family: "Dancing Script";
   font-size: 50px;
   margin-bottom: 0;
 }
@@ -97,22 +118,12 @@ button {
   margin-top: 10px 0 0 0;
   width: 80%;
   text-align: justify;
-  font-family: "Dancing Script";
 }
 
 #image-section img {
   width: 60%;
   height: 250px;
   margin-top: 50px;
-}
-
-#header-icons {
-  margin-top: 40px;
-  margin-left: 100px;
-}
-
-#header-icons i {
-  margin-left: 10px;
 }
 
 .font-dancing-script-regular {
@@ -137,9 +148,11 @@ button {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-40px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -188,17 +201,6 @@ button {
   margin-top: 3px;
 }
 
-#form #submit {
-  width: 20%;
-  height: 25px;
-  background-color: black;
-  border-radius: 5px;
-  border: 1px solid #f5ad04;
-  margin-top: 6px;
-  color: white;
-  padding: 4px 10px;
-}
-
 label {
   margin-top: 10px;
 }
@@ -217,16 +219,6 @@ footer {
 
 .footer-links {
   margin-top: 10px;
-}
-
-.footer-links a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: white;
-}
-
-.footer-links a:hover {
-  color: #f5ad04;
 }
 
 @media only screen and (max-width: 768px) {
