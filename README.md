@@ -4,10 +4,6 @@
 
 > 🌟 Welcome to my Landing Page repository! Crafted with enthusiasm, it showcases HTML/CSS fundamentals. Dive into the world of technical documentation and explore web development intricacies through code. Your engagement enriches our learning experience. Let's embark on this coding adventure! 💻🎉
 
-## Demo 📸
-
-![Demo](https://media.giphy.com/media/CoGKO2FB8iZPJgC76W/giphy.gif)
-
 ## Technologies Used 🛠️
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
