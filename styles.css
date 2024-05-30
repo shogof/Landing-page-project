@@ -9,7 +9,6 @@ body {
 }
 
 #header {
-  /* background-color: aqua; */
   width: 100%;
   height: 20%;
   display: flex;
@@ -26,6 +25,11 @@ ul {
   margin-left: 230px;
   display: flex;
   justify-content: space-around;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
 }
 
 #nav-bar li {
@@ -58,7 +62,7 @@ button {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-button:hover, #form #submit:hover {
+#form #submit:hover {
   color: #ffbe28;
   background-color: aliceblue;
   font-weight: bold;
@@ -114,14 +118,14 @@ button:hover, #form #submit:hover {
 .font-dancing-script-regular {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
-  font-weight: normal; /* Or any valid font weight value */
+  font-weight: normal;
   font-style: normal;
 }
 
 .font-edu-tas-beginner-bold {
   font-family: "Edu TAS Beginner", cursive;
   font-optical-sizing: auto;
-  font-weight: bold; /* Or any valid font weight value */
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -164,7 +168,6 @@ button:hover, #form #submit:hover {
 }
 
 #form {
-  /* background-color: #fff; */
   width: 30%;
   margin: 0 100px;
   height: 35px;
@@ -183,7 +186,6 @@ button:hover, #form #submit:hover {
   padding: 5px;
   border-radius: 8px;
   margin-top: 3px;
-
 }
 
 #form #submit {
@@ -197,14 +199,11 @@ button:hover, #form #submit:hover {
   padding: 4px 10px;
 }
 
-
 label {
   margin-top: 10px;
 }
 
-
-
-video{
+video {
   width: 100%;
   height: auto;
   border-radius: 10px;
@@ -215,7 +214,6 @@ footer {
   padding: 20px;
   text-align: center;
 }
-
 
 .footer-links {
   margin-top: 10px;
@@ -229,4 +227,79 @@ footer {
 
 .footer-links a:hover {
   color: #f5ad04;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+
+  #header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  ul {
+    margin-left: 0;
+  }
+
+  #header-icons {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  #header-img {
+    margin: 20px 0;
+  }
+
+  #text-section,
+  #image-section {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  #text-section h1 {
+    font-size: 40px;
+  }
+
+  #text-section p {
+    width: 100%;
+  }
+
+  #image-section img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #third-section table {
+    margin-top: 40px;
+  }
+
+  #third-section td {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #form {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  #form #email {
+    width: 70%;
+  }
+
+  #form #submit {
+    width: 25%;
+    margin-top: 0;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .footer-links {
+    margin-top: 0;
+  }
 }
