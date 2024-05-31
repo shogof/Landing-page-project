@@ -6,7 +6,8 @@
 
 ## Demo 📸
 
-![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzRxbHQycmRmMDQ1em53a2gxc25oeXgzc2lnMWxkcGllMjI1ZnVrbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aCVBMXRdyZe63gCnLX/giphy-downsized-large.gif)
+![Demo](https://giphy.com/gifs/aCVBMXRdyZe63gCnLX)
+
 
 ## Technologies Used 🛠️
 
