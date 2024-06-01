@@ -6,7 +6,7 @@
 
 ## Demo 📸
 
-![Demo](git@github.com:shogof/Landing-page-project.git)
+![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjNhcDF4NXdobTA4ZjZndGI2d3ZwZzI3cnFvb255aXRvOWh4emp2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aCVBMXRdyZe63gCnLX/giphy-downsized.gif)
 
 
 ## Technologies Used 🛠️
