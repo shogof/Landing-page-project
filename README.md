@@ -2,12 +2,11 @@
 
 ## Project Description 📝
 
-> 🌟 Welcome to my Landing Page repository! Crafted with enthusiasm, it showcases HTML/CSS fundamentals. Dive into the world of technical documentation and explore web development intricacies through code. Your engagement enriches our learning experience. Let's embark on this coding adventure! 💻🎉
+> 🍔 Welcome to our Hambarger Landing Page! Crafted with passion and precision, it's a feast for the eyes and a treat for your taste buds. Delve into the artistry of HTML/CSS as we serve up a delectable array of web development essentials. Explore the savory nuances of technical documentation and savor the intricacies of code. Your interaction not only enhances your learning journey but also adds flavor to our culinary coding adventure! Let's sink our teeth into this digital delight! 🍔💻🎉
 
 ## Demo 📸
 
 ![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjNhcDF4NXdobTA4ZjZndGI2d3ZwZzI3cnFvb255aXRvOWh4emp2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aCVBMXRdyZe63gCnLX/giphy-downsized.gif)
-
 
 ## Technologies Used 🛠️
 
