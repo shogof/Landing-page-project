@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url(Images/download.jpg);
+  background-size: 100% 480px;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  color: white;
+}
+
+#header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#header-img {
+  width: 9%;
+  height: auto;
+  margin-left: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  float: left;
+}
+
+#nav-bar li {
+  margin: 10px;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: #f5ad04;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+#nav-bar a:hover {
+  text-decoration: none;
+  color: #ffbe28;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button {
+  margin: 30px 0 30px 10px;
+  padding-top: 0;
+  height: 40px;
+  width: 13%;
+  border-radius: 50px;
+  background-color: #f5ad04;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+#form #submit {
+  width: 20%;
+  height: 25px;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid #f5ad04;
+  margin-top: 6px;
+  color: white;
+  padding: 4px 10px;
+}
+
+#form #submit:hover {
+  color: #ffbe28;
+  background-color: aliceblue;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 2px;
+  transition: all 1s;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 260px;
+  font-family: "Dancing Script", sans-serif;
+}
+
+#text-section {
+  width: 50%;
+  margin: 0 100px;
+}
+
+#image-section {
+  width: 50%;
+}
+
+#text-section h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#text-section p {
+  margin-top: 10px 0 0 0;
+  width: 80%;
+  text-align: justify;
+}
+
+#image-section img {
+  width: 60%;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.font-dancing-script-regular {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-edu-tas-beginner-bold {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#j {
+  animation: moveUpDown 5s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-40px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#third-section table {
+  width: 100%;
+  height: 250px;
+  margin-top: 90px;
+  padding: 20px;
+}
+
+#third-section tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#third-section td {
+  background-color: aliceblue;
+  width: 30%;
+  height: 200px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#form {
+  width: 30%;
+  margin: 0 100px;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #f5ad04;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#form #email {
+  width: 50%;
+  height: 18px;
+  background-color: black;
+  border: 1px solid #f5ad04;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 3px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+
+  #header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  ul {
+    margin-left: 0;
+  }
+
+  #header-icons {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  #header-img {
+    margin: 20px 0;
+  }
+
+  #text-section,
+  #image-section {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  #text-section h1 {
+    font-size: 40px;
+  }
+
+  #text-section p {
+    width: 100%;
+  }
+
+  #image-section img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #third-section table {
+    margin-top: 40px;
+  }
+
+  #third-section td {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #form {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  #form #email {
+    width: 70%;
+  }
+
+  #form #submit {
+    width: 25%;
+    margin-top: 0;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .footer-links {
+    margin-top: 0;
+  }
+}
